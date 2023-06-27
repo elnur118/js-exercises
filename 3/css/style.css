@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tapsiriq_metn {
+  width: 1200px;
+}
+
+.textarea {
+  margin-top: 20px;
+  width: 800px;
+  font-size: 30px;
+}
+
+.qacan_setir {
+  text-align: end;
+  font-size: 50px;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

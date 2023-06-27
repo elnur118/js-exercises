@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="tapsiriq_metn">
+      <h1>Tapşırıq 3</h1>
+      Bu dəfə TVdə gördüyümüz qaçan sətirlər funksionallığını düzəldəcəyik.
+      Səhifə ortasında eni 800px olan textarea ilə render olur. Elementin
+      içindəki mətn dəyişildikdə səhifənin axırında (bottom: 0) arxa fonu
+      yaşıl olan element üzə çıxır və içində textarenın içinə daxil edilən
+      mətn sola doğru hərəkət edir. Məsələn, salam sözünün s-ni textarea-a
+      daxil edən kimi sağ tərəfdən s hərfi <b>SOLA</b> doğru hərəkət etməyə
+      başlayır. Əgər a hərfini daxil etsəm sa hərəkət etməyə başlayır.
+      Elementin içərisi dəyişikdə mətn səhifənin ən başına gəlsə də problem
+      olmaz. Elementin içərisi boş olduqda isə qaçan sətirləri göstərən
+      element yoxa çıxsın.
+    </div>
+    <div>
+      <textarea class="textarea" name="" id="textarea" cols="30" rows="10"></textarea>
+    </div>
+    <div class="qacan_setir" id="qacan_setir"></div>
+  </div>
+  <script src="./js/myscrypt.js"></script>
+</body>
+
+</html>
